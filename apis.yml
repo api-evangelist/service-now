@@ -1,0 +1,50 @@
+aid: service-now
+name: ServiceNow (alias)
+description: This repository is an alias for the canonical API Evangelist ServiceNow profile.
+  The provider is published as `servicenow` at https://github.com/api-evangelist/servicenow,
+  which holds the apis.yml index, OpenAPI specs, Naftiko capabilities, JSON Schema,
+  JSON Structure, JSON-LD, examples, plans, rate-limits, FinOps, and Spectral rules
+  for every documented ServiceNow REST API (Table, Aggregate, Attachment, Import Set,
+  Batch, Scripted REST, Now Assist, and related surfaces). Use the canonical repo for
+  all profiling artifacts and updates. ServiceNow's product domain uses the hyphenated
+  `service-now.com` (the instance base URL) while the company brand and developer portal
+  use `servicenow.com`; both resolve to the same provider profile.
+url: https://raw.githubusercontent.com/api-evangelist/service-now/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.18'
+tags:
+  - Alias
+  - Enterprise Platform
+  - IT Service Management
+  - ITSM
+  - Workflow Automation
+canonical:
+  aid: servicenow
+  name: ServiceNow
+  url: https://github.com/api-evangelist/servicenow
+  apisYmlUrl: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
+common:
+  - type: GitHubRepository
+    url: https://github.com/api-evangelist/servicenow
+  - type: Portal
+    url: https://developer.servicenow.com
+  - type: APIReference
+    url: https://www.servicenow.com/docs/bundle/yokohama-api-reference/page/integrate/inbound-rest/concept/c_RESTAPI.html
+  - type: Documentation
+    url: https://www.servicenow.com/docs
+  - type: Pricing
+    url: https://www.servicenow.com/products.html
+  - type: Sandbox
+    url: https://developer.servicenow.com/dev.do
+  - type: Blog
+    url: https://www.servicenow.com/blogs.html
+  - type: ChangeLog
+    url: https://www.servicenow.com/community/now-platform-articles/tkb-p/now-platform-articles
+  - type: StatusPage
+    url: https://status.servicenow.com
+apis: []
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
+    url: https://apievangelist.com

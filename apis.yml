@@ -25,6 +25,8 @@ canonical:
   url: https://github.com/api-evangelist/servicenow
   apisYmlUrl: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 common:
+  - type: DomainSecurity
+    url: security/service-now-domain-security.yml
   - type: GitHubRepository
     url: https://github.com/api-evangelist/servicenow
   - type: Portal

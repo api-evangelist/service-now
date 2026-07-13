@@ -2,11 +2,13 @@
   "repo": "service-now",
   "feeds": [
     {
-      "source": "https://www.servicenow.com/blogs.html",
+      "source": "https://developer.servicenow.com/dev.do",
+      "feed_url": "https://developer.servicenow.com/dev.do",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 403 Forbidden"
+      "method": "none"
     }
   ],
-  "fetched": "2026-06-27T13:09:16Z",
+  "fetched": "2026-07-11T11:50:51Z",
   "post_count": 0
 }

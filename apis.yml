@@ -1,4 +1,16 @@
 aid: service-now
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/service-now.png
 name: ServiceNow (alias)
 description: This repository is an alias for the canonical API Evangelist ServiceNow profile.
   The provider is published as `servicenow` at https://github.com/api-evangelist/servicenow,

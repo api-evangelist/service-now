@@ -24,7 +24,7 @@ description: This repository is an alias for the canonical API Evangelist Servic
 url: https://raw.githubusercontent.com/api-evangelist/service-now/refs/heads/main/apis.yml
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.18'
+specificationVersion: '0.23'
 tags:
   - Alias
   - Enterprise Platform

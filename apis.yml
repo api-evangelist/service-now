@@ -28,6 +28,11 @@ specificationVersion: '0.23'
 tags:
   - Alias
   - Enterprise Platform
+  - ITSM
+  - Workflow-Automation
+tags_raw:
+  - Alias
+  - Enterprise Platform
   - IT Service Management
   - ITSM
   - Workflow Automation

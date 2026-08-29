@@ -1,4 +1,16 @@
 aid: service-now
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: true
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - pricing
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -42,6 +54,10 @@ canonical:
   url: https://github.com/api-evangelist/servicenow
   apisYmlUrl: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/apis.yml
 common:
+  - type: IssueTracker
+    url: https://github.com/api-evangelist/servicenow/issues
+  - type: SecurityPolicy
+    url: https://github.com/api-evangelist/servicenow/tree/main/security
   - type: DomainSecurity
     url: security/service-now-domain-security.yml
   - type: GitHubRepository
